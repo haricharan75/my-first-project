@@ -3,17 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Button Counter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Heading</h1>
-    <h2>heading 2</h2>
-    <h2>heading 23</h2>
-    <h3>dvgwjhdey</h3>
-    <p>dhgidehuihfwfwjfduiewhdewu</p>
-    <button>submit</button>
-    <h6>full</h6>
-    <marque>hghgggfffffg</marque>
+    
+        <h1 id="count">0</h1>
+
+        <button onclick="add()">Click To Add</button>
+        <button onclick="sub()">Decrement</button>
+
+        <script>
+            let countu = 0
+
+            function add(){
+                countu++;
+                UI();
+                
+
+            }
+            function sub(){
+                countu--;
+                UI();
+            }
+            function UI(){
+                const display = document.getElementById("count");
+                display.innerHTML = countu;
+
+                if(count > 10){
+                    display.style.color = "red";
+                }
+                else{
+                    display.style.color = "green";
+                }
+            }
+
+        </script>
+
+    
 </body>
 </html>
