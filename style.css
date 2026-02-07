@@ -1,7 +1,27 @@
-h1{
-    background: white;
-}
+
+
 body{
-    background-color: aqua;
-    padding-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background: aqua;
 }
+#btn:hover{
+    cursor: all-scroll;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background: goldenrod;
+}
+section{
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+aside{
+    flex-direction: column;
+}
+.container{
+    display: flex;
+}
+
