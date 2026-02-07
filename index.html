@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<<<<<<< Updated upstream
     
         <h1 id="count">0</h1>
 
@@ -41,5 +42,70 @@
         </script>
 
     
+=======
+    <h1>Hari Charan Adepu</h1>
+    <p>Bio <em>This page is only for the practise of javascrpit and html and css with owm creativity ....</em></p>
+    <div id="favour">
+        <h1>Liked Items</h1>
+        <ul>
+            <li>chiken</li>
+            <li>panner</li>
+            
+        </ul>
+        <button id="btn">more</button>
+    </div>
+        <!-- <div id="moree">
+            <ul>
+                <li>fry</li>
+                <li>mutton</li>
+                <li>cool drinks</li>
+            </ul>
+
+        </div> -->
+    <div class="container">
+    <section>
+        <h1>Images</h1>
+        <img src="https://imgs.search.brave.com/Lcma1vWW9M2iMEyHosrF2tD2BlSvZAfapLtORAuU4Tg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDM5NDEx/MTQuanBn" alt="dhoni">
+        <img src="https://imgs.search.brave.com/Lcma1vWW9M2iMEyHosrF2tD2BlSvZAfapLtORAuU4Tg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDM5NDEx/MTQuanBn" alt="dhoni">
+    </section>
+    <aside>
+        <h1>favourate</h1>
+        <img src="https://imgs.search.brave.com/dbAaJ7hmoQTagnRyU0pLrBRLrjd4OYzC1_EpKqJg03M/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcx/LmhzY2ljZG4uY29t/L2ltYWdlL3VwbG9h/ZC9mX2F1dG8sdF9k/c19zcXVhcmVfd18z/MjAscV81MC9sc2Np/L2RiL1BJQ1RVUkVT/L0NNUy8zMTY2MDAv/MzE2NjA1LjMucG5n">
+        <img src="https://imgs.search.brave.com/dbAaJ7hmoQTagnRyU0pLrBRLrjd4OYzC1_EpKqJg03M/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcx/LmhzY2ljZG4uY29t/L2ltYWdlL3VwbG9h/ZC9mX2F1dG8sdF9k/c19zcXVhcmVfd18z/MjAscV81MC9sc2Np/L2RiL1BJQ1RVUkVT/L0NNUy8zMTY2MDAv/MzE2NjA1LjMucG5n" alt="virat">
+    </aside>
+    </div>
+    <div id="output"></div>
+
+    <input id="user" placeholder="enter your name">
+    <button id="show">submit</button>
+    <p id="result"></p>
+     <h1>work in progess</h1>
+
+
+
+    <script>
+        const btn = document.getElementById("btn");
+        const output = document.getElementById("output");
+
+        btn.addEventListener("click", function(){
+            output.innerHTML = `<div id="moree">
+            <ul>
+                <li>fry</li>
+                <li>mutton</li>
+                <li>cool drinks</li>
+            </ul>
+
+        </div>`
+        })
+       
+
+        document.getElementById("show").addEventListener("click", function(){
+            let val = document.getElementById("user").value;
+            document.getElementById("result").innerHTML = `<h1>Hello ${val}</h1>`
+        });
+
+
+    </script>
+>>>>>>> Stashed changes
 </body>
 </html>
